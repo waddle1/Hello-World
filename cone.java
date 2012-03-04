@@ -10,7 +10,7 @@ public class cone {
 		System.out.println("\nCone head volume");
 		//get height of cone
 		System.out.print("Enter the height: ");
-		double height = s.nextDouble();
+		double HEIGHT = s.nextDouble();
 		//check if height is in range
 		while(HEIGHT < 0) {
 			System.out.print("\nCan not have negative radius ");
